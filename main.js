@@ -1,11 +1,6 @@
-/* =============================================
-   PORTFOLIO — Alexandre de Souza Moreira
-   main.js
-   ============================================= */
- 
 document.addEventListener('DOMContentLoaded', () => {
  
-  /* ── Scroll reveal ── */
+
   const reveals = document.querySelectorAll('.reveal');
  
   const revealObserver = new IntersectionObserver(entries => {
@@ -19,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
  
   reveals.forEach(el => revealObserver.observe(el));
  
-  /* ── Animate language bars ── */
   const bars = document.querySelectorAll('.gh-lang-bar-fill');
  
   const barObserver = new IntersectionObserver(entries => {

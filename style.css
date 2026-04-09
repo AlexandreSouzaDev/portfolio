@@ -1,9 +1,5 @@
-/* =============================================
-   PORTFOLIO — Alexandre de Souza Moreira
-   style.css
-   ============================================= */
- 
-:root {
+
+ :root {
   --bg: #0a0a0a;
   --bg2: #111111;
   --bg3: #1a1a1a;
@@ -402,7 +398,7 @@ nav {
   transform: translate(2px, -2px);
 }
  
-/* ── LANGUAGES ── */
+/* ── Linguagens── */
 .langs-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -634,7 +630,7 @@ nav {
   color: var(--text);
 }
  
-/* ── FOOTER ── */
+/*  footer */
 footer {
   padding: 2rem 0;
   border-top: 0.5px solid var(--border);
@@ -649,7 +645,7 @@ footer {
   justify-content: space-between;
 }
  
-/* ── ANIMATIONS ── */
+/* ── animacoes ── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -671,7 +667,7 @@ footer {
   transform: translateY(0);
 }
  
-/* ── RESPONSIVE ── */
+/* ── resposividade── */
 @media (max-width: 700px) {
   nav { padding: 1rem 1.5rem; }
   .nav-links { display: none; }
@@ -686,7 +682,7 @@ footer {
   .footer-inner { flex-direction: column; gap: 8px; text-align: center; }
 }
  
-/* ── EDUCATION ── */
+/* ── educação ── */
 .edu-block { margin-bottom: 1rem; }
  
 .edu-list { display: flex; flex-direction: column; gap: 1px; background: var(--border); border: 0.5px solid var(--border); border-radius: 8px; overflow: hidden; }
